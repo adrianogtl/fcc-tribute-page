@@ -10,7 +10,7 @@
 <h3 align="center">Santos Dumont | Tribute Page</h3>
 
   <p align="center">
-    A demonstration of the parallax scrolling effect
+    A tribute to Santos Dumont
     <br />
     <br />
     <a href="https://adrianogtl.github.io/freecodecamp-tribute-page/en/">🇺🇸 View Demo</a>
@@ -40,12 +40,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Screenshot][screenshot-path]
+![Screenshot][preview]
 * **Objective**: Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
 
 * 2nd certification project in freeCodeCamp's Responsive Web Design curriculum
-
-* Source information: [ebiografia](https://www.ebiografia.com/santos_dumont/)
 
 
 ### Built With
@@ -73,6 +71,7 @@ Project Link: [https://adrianogtl.github.io/freecodecamp-tribute-page/en/](https
 ## Acknowledgments
 
 * Photos from [Wikimedia][photos-url]
+* Historical information: [ebiografia][info-source]
 
 <p align="center"><a href="#readme-top">back to top ⬆️</a></p>
 
@@ -82,7 +81,7 @@ Project Link: [https://adrianogtl.github.io/freecodecamp-tribute-page/en/](https
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 <!-- ABOUT -->
-[screenshot-path]: assets/screenshot.jpeg
+[preview]: assets/preview.gif
 
 <!-- BUILT WITH -->
 [github-pages]: https://pages.github.com/
@@ -94,3 +93,4 @@ Project Link: [https://adrianogtl.github.io/freecodecamp-tribute-page/en/](https
 
 <!-- ACKNOWLEDGMENTS -->
 [photos-url]: https://commons.wikimedia.org/wiki/Main_Page
+[info-source]: https://www.ebiografia.com/santos_dumont/
