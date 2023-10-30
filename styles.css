@@ -45,7 +45,7 @@ body {
 #title {
   padding-bottom: 1.5rem;
   line-height: 2rem;
-  font-size: 2rem;
+  font-size: 2rem 
 }
 
 #description {
@@ -77,16 +77,16 @@ font-size: 1.3rem;
 }
 
 .one {
-  background-image: url(assets/images/portrait.jpg);
+  background-image: url(assets/portrait.jpg);
 }
 .two {
-  background-image: url(assets/images/airship.jpg);
+  background-image: url(assets/airship.jpg);
 }
 .three {
-  background-image: url(assets/images/14bis.jpg);
+  background-image: url(assets/14bis.jpg);
 }
 .four {
-  background-image: url(assets/images/old_portrait.jpg);
+  background-image: url(assets/old_portrait.jpg);
 }
 
 .caption {
