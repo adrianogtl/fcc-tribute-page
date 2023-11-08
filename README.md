@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/adrianogtl/parallaxsite">
+  <a href="https://adrianogtl.github.io/freecodecamp-tribute-page/en/">
     <img src="assets/icon.jpg" alt="Logo" width="80" height="80">
   </a>
 
@@ -13,11 +13,11 @@
     A tribute to Santos Dumont
     <br />
     <br />
-    <a href="https://adrianogtl.github.io/freecodecamp-tribute-page/en/">🇺🇸 View Demo</a>
-    ·
-    <a href="https://adrianogtl.github.io/freecodecamp-tribute-page/pt-br/">🇧🇷 Ver Demonstração</a>
-    ·
-    <a href="https://www.freecodecamp.org/">freeCodeCamp</a>
+    <a href="https://adrianogtl.github.io/freecodecamp-tribute-page/en/">View Demo</a>
+     ·
+    <a href="https://adrianogtl.github.io/freecodecamp-tribute-page/pt-br/">Ver Demo 🇧🇷</a>
+     ·
+    <a href="https://www.freecodecamp.org/">freeCodeCamp 🔥</a>
   </p>
 </div>
 
@@ -66,8 +66,6 @@ Distributed under the GPL-3.0 license. See [LICENSE][license-url] for more infor
 
 Adriano Garcia - [adrianogtlopes@gmail.com](mailto:adrianogtlopes@gmail.com)
 
-Project Link: [https://adrianogtl.github.io/freecodecamp-tribute-page/en/](https://adrianogtl.github.io/freecodecamp-tribute-page/en/)
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -75,7 +73,7 @@ Project Link: [https://adrianogtl.github.io/freecodecamp-tribute-page/en/](https
 * Photos from [Wikimedia][photos-url]
 * Historical information: [ebiografia][info-source]
 
-<p align="center"><a href="#readme-top">back to top ⬆️</a></p>
+<p align="right"><a href="#readme-top">back to top 🔝</a></p>
 
 
 
