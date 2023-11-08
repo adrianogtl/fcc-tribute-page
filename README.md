@@ -15,9 +15,9 @@
     <br />
     <a href="https://adrianogtl.github.io/freecodecamp-tribute-page/en/">View Demo</a>
      ·
-    <a href="https://adrianogtl.github.io/freecodecamp-tribute-page/pt-br/">Ver Demo 🇧🇷</a>
+    <a href="https://adrianogtl.github.io/freecodecamp-tribute-page/pt-br/">Ver Demo</a>
      ·
-    <a href="https://www.freecodecamp.org/">freeCodeCamp 🔥</a>
+    <a href="https://www.freecodecamp.org/">freeCodeCamp</a>
   </p>
 </div>
 
@@ -73,7 +73,7 @@ Adriano Garcia - [adrianogtlopes@gmail.com](mailto:adrianogtlopes@gmail.com)
 * Photos from [Wikimedia][photos-url]
 * Historical information: [ebiografia][info-source]
 
-<p align="right"><a href="#readme-top">back to top 🔝</a></p>
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 
 
