@@ -180,4 +180,12 @@ body {
     max-width: 800px;
     padding: 10px 50px;
   }
+
+  .footer a {
+    transition: color 0.5s;
+  }
+
+  .footer a:hover {
+    color: #fff;
+  }
 }
