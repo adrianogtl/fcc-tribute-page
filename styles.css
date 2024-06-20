@@ -1,7 +1,7 @@
 :root {
   --black: #0a0a0a;
   --white: #eee;
-  --link: #423232;
+  --link: #c7c7c7;
 }
 
 * {
@@ -50,11 +50,31 @@ body {
 #title {
   padding-bottom: 1.5rem;
   line-height: 3rem;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 #description {
   font-size: 1.3rem;
+  margin-bottom: 5rem;
+}
+
+#born::before,
+#death::before {
+  display: inline-block;
+  margin-right: 0.5rem;
+  content: "";
+  width: 0.8rem;
+  height: 0.8rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#born::before {
+  background-image: url(assets/icons/star.svg);
+}
+
+#death::before {
+  background-image: url(assets/icons/cross.svg);
 }
 
 .info {
@@ -63,12 +83,13 @@ body {
 }
 
 .subtitle {
-  padding-bottom: 1rem;
-  font-size: 1.4rem;
+  padding-bottom: 2rem;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
 .text {
+  text-indent: 1rem;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
@@ -83,16 +104,16 @@ body {
 }
 
 .one {
-  background-image: url(assets/portrait.jpg);
+  background-image: url(assets/images/portrait.jpg);
 }
 .two {
-  background-image: url(assets/airship.jpg);
+  background-image: url(assets/images/airship.jpg);
 }
 .three {
-  background-image: url(assets/14bis.jpg);
+  background-image: url(assets/images/14bis.jpg);
 }
 .four {
-  background-image: url(assets/old_portrait.jpg);
+  background-image: url(assets/images/old_portrait.jpg);
 }
 
 .caption {
@@ -122,12 +143,15 @@ body {
 
 .footer {
   position: absolute;
+  display: flex;
+  gap: 2rem;
   text-align: center;
   bottom: 0.5rem;
 }
 
 .footer a {
-  color: unset;
+  text-decoration: none;
+  color: var(--link);
 }
 
 /* Above 992px */
@@ -142,17 +166,14 @@ body {
     flex-direction: row-reverse;
   }
 
-  /* .subtitle {
+  .subtitle {
     font-size: 1.8rem;
-  } */
+  }
 
   .info,
   .image {
     width: 50%;
     height: 100vh;
-  }
-
-  .info {
   }
 
   .text {
