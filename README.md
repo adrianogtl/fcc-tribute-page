@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://adrianogtl.github.io/fcc-tribute-page/en/">
-    <img src="assets/icon.jpg" alt="Logo" width="80" height="80">
+    <img src="assets/icons/icon.jpg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Santos Dumont | Tribute Page</h3>
