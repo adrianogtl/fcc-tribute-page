@@ -1,72 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Santos Dumont | Tribute</title>
+    <link rel="shortcut icon" href="../assets/icon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="../styles.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Santos Dumont | Tribute</title>
-  <link rel="shortcut icon" href="../assets/icon.jpg" type="image/x-icon">
-  <link rel="stylesheet" href="../styles.css">
-  <link rel="stylesheet" type="text/css" href="fullpage.css" />
-</head>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
-  <main id="fullpage">
-    <section class="section">
-      <div class="content">
-        <div class="info">
-          <h1 id="title">Alberto Santos Dumont</h1>
-          <p id="description">Brazilian aeronaut and inventor</p>
-        </div>
-        <div class="image one">
-          <span class="caption">Santos Dumont in 1902.</span>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="content reverse">
-        <div class="info">
-          <h2 class="subtitle">The airship</h2>
-          <p class="text">Flying in "balloon no. 6", Santos Dumont demonstrated the dirigibility of balloons and won the "Deutsch Prize" in 1901,
-          awarded by the Aeroclub de France, being recognized as the first to accomplish such a feat.</p>
-        </div>
-        <div class="image two">
-          <span class="caption">Balloon No. 6 on October 19, 1901.</span>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="content">
-        <div class="info">
-          <h2 class="subtitle">The airplane</h2>
-          <p class="text">Santos Dumont's consecration came with the 14 Bis, a heavier-than-air aircraft that took off without the help of the
-          wind or catapults, in the presence of the members of the <em>Aéro-Club de France</em>.</p>
-        </div>
-        <div class="image three">
-          <span class="caption">14 bis on November 12, 1906.</span>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="content reverse">
-        <div class="info" id="last-info">
-          <h2 class="subtitle">The legacy</h2>
-          <p class="text">Santos Dumont's title was disputed by other aviators around the world, including the Wright brothers, but their flights
-          were carried out, according to them, without the presence of witnesses.</p>
-        </div>
-        <div class="image four">
-          <span class="caption">Santos Dumont in 1922.</span>
-        </div>
-      </div>
-    </section>
-  </main>
-  <script type="text/javascript" src="../script/fullpage.min.js"></script>
-  <script>
-    new fullpage('#fullpage', {
-      scrollingSpeed: 1000,
-      licenseKey: 'gplv3-license'
-    });
-  </script>
-</body>
+    <!-- fullpage.css -->
+    <link rel="stylesheet" type="text/css" href="fullpage.css" />
+  </head>
 
+  <body>
+    <main id="fullpage">
+      <section class="section">
+        <div class="content">
+          <div class="info">
+            <h1 id="title">Alberto Santos Dumont</h1>
+            <p id="description">Brazilian aeronaut and inventor</p>
+          </div>
+          <div class="image one">
+            <span class="caption">Santos Dumont in 1902.</span>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="content reverse">
+          <div class="info">
+            <h2 class="subtitle">The airship</h2>
+            <p class="text">
+              Flying in "balloon no. 6", Santos Dumont demonstrated the
+              dirigibility of balloons and won the "Deutsch Prize" in 1901,
+              awarded by the Aeroclub de France, being recognized as the first
+              to accomplish such a feat.
+            </p>
+          </div>
+          <div class="image two">
+            <span class="caption">Balloon No. 6 on October 19, 1901.</span>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="content">
+          <div class="info">
+            <h2 class="subtitle">The airplane</h2>
+            <p class="text">
+              Santos Dumont's consecration came with the 14 Bis, a
+              heavier-than-air aircraft that took off without the help of the
+              wind or catapults, in the presence of the members of the
+              <em>Aéro-Club de France</em>.
+            </p>
+          </div>
+          <div class="image three">
+            <span class="caption">14 bis on November 12, 1906.</span>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="content reverse">
+          <div class="info" id="last-info">
+            <h2 class="subtitle">The legacy</h2>
+            <p class="text">
+              Santos Dumont's title was disputed by other aviators around the
+              world, including the Wright brothers, but their flights were
+              carried out, according to them, without the presence of witnesses.
+            </p>
+            <span class="footer">
+              Essa página está disponível em
+              <a href="../pt-br/index.html">português</a>.
+            </span>
+          </div>
+          <div class="image four">
+            <span class="caption">Santos Dumont in 1922.</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="text/javascript" src="../script/fullpage.min.js"></script>
+    <script>
+      new fullpage("#fullpage", {
+        scrollingSpeed: 1000,
+        scrollDirection: "vertical",
+        licenseKey: "gplv3-license",
+      });
+    </script>
+  </body>
 </html>
