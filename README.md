@@ -28,7 +28,7 @@
 
 - 2nd certification project in freeCodeCamp's Responsive Web Design curriculum
 
-:rocket:### Built With
+### :rocket: Built With
 
 - [fullPage.js](https://alvarotrigo.com/fullPage/)
 
